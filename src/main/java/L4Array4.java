@@ -17,7 +17,7 @@ public class L4Array4 {
         for (int i = array[0]; i < array.length; i++){ /* Вычисляем сумму массива*/
             sum = sum + array [i];
         }
-        avarage =  sum / array.length +1; /* Вычисляем среднее число массива*/
+        avarage =  sum / array.length +1; /* Вычисляем среднее число массива. НЕПОНЯТНО ПОЧЕМУ +1???*/
         System.out.println(avarage); /* Выводим среднее число в консоль*/
     }
 }
