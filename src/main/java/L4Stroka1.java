@@ -17,10 +17,10 @@ import java.sql.SQLOutput;
  */
 public class L4Stroka1 {
         public static void main(String[] args) {
-                String word = "Amazing";
-                String newWord1 = word.substring(0, 3);
-                String newWord2 = word.substring(word.length() - 3, word.length());
-                System.out.println(newWord1);
-                System.out.println(newWord2);
+                String word = "Amazing"; /*Объявляем строку*/
+                String newWord1 = word.substring(0, 3); /*Указываем с какого по какой символ взять подстроку в начале слова*/
+                String newWord2 = word.substring(word.length() - 3, word.length()); /*Указываем с какого по какой символ взять подстроку в конце слова*/
+                System.out.println(newWord1); /*Выводим первую подстроку в консоль */
+                System.out.println(newWord2); /*Вводим вторую подстроку в консоль*/
         }
 }
